@@ -1,0 +1,50 @@
+.card-conatiner{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+.cards{
+    height: 500px;
+    width: 80px;
+    border-radius: 10%;
+    margin: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.c1{
+    background-image: url("lalkila.jpg");
+    background-size: cover;
+}
+.c2{
+    background-image: url("Udaiput.jpg"); 
+    background-size: cover;
+}
+.c3{
+    background-image: url("Goldentemple.jpg");
+    background-size: cover;
+}  
+.c4{
+    background-image: url("banaras.jpg");
+    background-size: cover;
+}
+.c5{
+    background-image: url("hawamahal.jpg");
+    background-size: cover;
+}
+.c6{
+    background-image: url("maheshwar.jpg");
+    background-size: cover;
+}
+.c7{
+    background-image: url("tajmahal.jpg");
+    background-size: cover;
+}
+
+.expand{
+    display: block;
+    transition: 0.8s;
+    width: 770px;
+}
+.fold{
+    transition: 0.8s;
+}
